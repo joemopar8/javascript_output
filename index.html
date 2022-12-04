@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Output JavaScript</title>
+  </head>
+  <body>
+    <br />
+    <center>
+      <!-- Used for all examples -->
+      <h1 id="demo">Hello World!</h1>
+    </center>
+
+    <!-- Example_1: window.alert -->
+    <script>
+      window.alert("Learn to code!");
+    </script>
+
+    <!-- Example-2: .getElementById for screen output('Hello World' is overwritten) -->
+    <script>
+      document.getElementById("demo").innerHTML = "Life is good!";
+    </script>
+
+    <!-- Example-3: .write for screen output -->
+    <script>
+      document.write("I love coding!");
+    </script>
+
+    <br />
+
+    <!-- or -->
+
+    <!-- Not ideal as this will overide all html previously on screen -->
+    <button type="button" onclick="document.write('I love programing!')">
+      Click Me
+    </button>
+
+    <!-- Example_4: Outputs a message to the console(that always runs in the
+    background of any app) -->
+    <script>
+      console.log("Code Updated...");
+    </script>
+  </body>
+</html>
