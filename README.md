@@ -1,1 +1,1 @@
-# output_javascript
+# Javascript Output Tutorial
